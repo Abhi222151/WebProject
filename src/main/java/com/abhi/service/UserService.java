@@ -32,7 +32,7 @@ public class UserService {
 
 		ResponseTemplateVO vo = new ResponseTemplateVO();
 		User user = userRepository.findByUserId(userId);
-
+        // calling department microservice using rest template.
 		// DEPARTMENT-SERVICE
 		Department department = restTemplate.getForObject("http://DEPARTMENT-SERVICE/departments/" + user.getDepartmentId(),
 				Department.class);
