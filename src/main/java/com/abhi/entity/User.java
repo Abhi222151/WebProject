@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
-
+// Abhijeet Gupta
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 
