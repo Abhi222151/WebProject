@@ -1,7 +1,7 @@
 package com.abhi.VO;
 
 public class Department {
-
+    // variable defined
 	private Long departmentId;
 	private String departmentName;
 	private String departmentAddress;
