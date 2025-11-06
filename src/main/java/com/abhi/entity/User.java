@@ -10,6 +10,8 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+
+	// Fields used in DB
 	private Long userId;
 	private String firstName;
 	private String lastName;

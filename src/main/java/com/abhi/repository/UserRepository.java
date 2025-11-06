@@ -8,6 +8,7 @@ import com.abhi.entity.User;
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {
 
+	// default method
 	User findByUserId(Long userId);
 
 }
