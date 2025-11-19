@@ -20,11 +20,11 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
-	/*
-	 * @GetMapping("/") public String test() {
-	 * 
-	 * return "Abhijeet Gupta"; }
-	 */
+	// Abhijeet changes on 19th Nov
+	 @GetMapping("/") public String test() {
+
+	 return "Abhijeet Gupta"; }
+
 
 	@PostMapping("/pyz")
 	public User createUser(@RequestBody User user) {
