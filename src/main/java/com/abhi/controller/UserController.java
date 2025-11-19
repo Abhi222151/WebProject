@@ -26,7 +26,7 @@ public class UserController {
 	 * return "Abhijeet Gupta"; }
 	 */
 
-	@PostMapping("/xyz")
+	@PostMapping("/pyz")
 	public User createUser(@RequestBody User user) {
 
 		return userService.createUser(user);
@@ -46,4 +46,5 @@ public class UserController {
 	}
 
 }
+
 
